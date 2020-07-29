@@ -1,18 +1,23 @@
 body {
   color:#FFF;
-  font-size:12px;
+  font-size:17px;
   font-family:Arial, sans-serif;
-  background:#003;
+  background:#4054b2;
+  font-weight:bold;
+
+
+
 }
 
 h1 {
-  font-size:24px;
+  color:#FFF;
+  font-size: 5vw;
   font-family:Trebuchet MS, Arial, sans-serif;
   text-align:center;
 }
 
 a {
-  color:#399;
+  color:#FFF;
   text-decoration:none;
 }
 
@@ -28,14 +33,14 @@ input {
 
 #magic8Ball {
   background:#151515;
-  box-shadow:0 48px 24px rgba(255, 255, 255, 0.05) inset, 0 -48px 24px rgba(0, 0, 0, 0.2) inset;
   border-radius:250px;
   height:300px;
   width:300px;
   position:relative;
   overflow:hidden;
   margin:0 auto;
-  cursor:help;
+  cursor:pointer;
+
 }
 
 .inner {
@@ -94,16 +99,16 @@ input {
 }
 
 .user, .the-8-ball {
-  color:#399;
+  color:#FFF;
   font-weight:bold;
 }
 
-.the-8-ball { color:#993 }
+.the-8-ball { color:#FFF }
 
 #logBox {
-  background:#222;
-  border:1px solid #333;
-  border-radius:3px;
+  background:#4054b2;
+  border:0px solid #FFF;
+  border-radius:15px;
   width:600px;
   margin:0 auto;
   padding:6px 12px;
@@ -111,13 +116,16 @@ input {
 }
 
 #magicLog {
-  background:#111;
-  border-radius:3px;
-  margin-bottom:6px;
+  background:#5054b2;
+  border:0px solid #FFF;
+  border-radius:15px;
+  margin-bottom:15px;
   padding:3px;
   height:150px;
   overflow-y:auto;
   overflow-x:hidden;
+  text-align: left;
+
 }
 
 #footer {
@@ -126,23 +134,25 @@ input {
 }
 
 #question {
-  height:16px;
+  text-align: center;
+  height:45px;
   width:494px;
-  padding:4px;
-  padding-right:100px
+  border-radius:15px;
+
 }
 
 #ask {
-  background:#333;
-  border-radius:0 3px 3px 0;
-  height:26px;
+  background:#4054b2;
+  border:5px solid #FFF;
+  border-radius:15px;
+  height:58px;
   width:100px;
-  margin-left:3px;
-  position:absolute;
+  margin-top:15px;
+  position:relative;
   right:0;
   cursor:pointer;
 }
-#ask:hover { background:#033 }
+#ask:hover { background:#4064b2 }
 
 #links {
   color:#066;
